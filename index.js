@@ -48,3 +48,5 @@ nextISSTimesForMyLocation((error, flyOver) => {
   
   printPassTimes(flyOver);
 });
+
+module.exports = {printPassTimes};
